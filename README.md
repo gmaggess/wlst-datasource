@@ -17,13 +17,11 @@ Notice the "." before invoking setWLSEnv.sh.
 
 3. Change the ds.properties file accordingly and can call
 
-``
-java weblogic.WLST create-ds.py
-``
+``java weblogic.WLST create-ds.py``
 
 You should see an output similar to:
 
-``
+```
 Initializing WebLogic Scripting Tool (WLST) ...
 
 Welcome to WebLogic Server Administration Scripting Shell
@@ -50,4 +48,4 @@ changes once you are done.
 Resource Name: SampleDataSource
 MBean type JDBCSystemResource with name SampleDataSource has been created successfully.
 JDBC file name: jdbc/SampleDataSource-4141-jdbc.xml
-``
+```
